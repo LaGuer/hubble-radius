@@ -16,11 +16,14 @@ Python modules used: scipy and numpy
 
 Fixed Constants used are:
 * c (speed of light)
-* G (Gravitational constant)
+* G (Newtonian constant of gravitation)
 * h (Planck Constant)
 * hbar (Planck constant over 2 pi)
 * lambdabar_e (Reduced Electron Compton Wavelength)
+* lambdabar_p (Reduced Proton Compton Wavelength)
 * Atiyah's Gamma
 * Euler Mascheroni constant 
 * Fine structure constant
 * m_e Electron mass
+* m_p Proton mass
+* pi
