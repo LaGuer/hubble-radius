@@ -12,9 +12,15 @@
 
 This repository contains the Jupyter notebooks of 10 Methods exhibiting the age of the universe using physical constants.
 
+Python modules used: scipy and numpy
+
 Fixed Constants used are:
 * c (speed of light)
 * G (Gravitational constant)
 * h (Planck Constant)
 * hbar (Planck constant over 2 pi)
 * lambdabar_e (Reduced Electron Compton Wavelength)
+* Atiyah's Gamma
+* Euler Mascheroni constant 
+* Fine structure constant
+* m_e Electron mass
