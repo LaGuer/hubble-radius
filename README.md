@@ -10,7 +10,7 @@
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laguer/universe-age/blob/master/universe-age.ipynb)
 [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/LaGuer/universe-age/blob/master/universe-age.ipynb)
 
-This repository contains the Jupyter notebooks of 10 Methods exhibiting the age of the universe using physical constants.
+This repository contains the Jupyter notebooks of 15 Methods exhibiting the age of the universe using physical constants.
 
 Python modules used: scipy and numpy
 
