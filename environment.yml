@@ -1,5 +1,9 @@
 dependencies:
   - scipy
+  - sympy
+  - quantities
+  - astroML
+  - healpy
   - matplotlib
   - numpy
   - pip
