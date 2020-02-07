@@ -1,4 +1,4 @@
-# hubble radius
+# Hubble radius estimates
 
 [![Cite ptep](https://img.shields.io/badge/PP-57-12-yellow.svg?style=flat)](http://www.ptep-online.com/2019/PP-57-12.PDF)
 [![Latest PDF](https://img.shields.io/badge/PDF-latest-red.svg?style=flat)](http://www.ptep-online.com/2019/PP-57-12.PDF)
@@ -12,7 +12,7 @@
 
 This repository contains the Jupyter notebooks of 15 Methods exhibiting the age of the universe using physical constants.
 
-Python modules used: scipy and numpy
+Python modules used: scipy, sympy, pandas and numpy
 
 Fixed Constants used are:
 
