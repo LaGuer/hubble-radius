@@ -6,6 +6,7 @@ dependencies:
   - healpy
   - matplotlib
   - numpy
+  - pandas
   - pip
   - pytest
   - ipywidgets >= 6.0.0
