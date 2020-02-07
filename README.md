@@ -6,9 +6,9 @@
 [![Cite viXra](https://img.shields.io/badge/viXra-1811.0146-green.svg?style=flat)](http://vixra.org/pdf/1811.0146v8.pdf)
 [![Build Status](https://travis-ci.org/LaGuer/universe-age.svg?branch=master)](https://travis-ci.org/LaGuer/universe-age) 
 [![codecov](https://codecov.io/gh/LaGuer/universe-age/branch/master/graph/badge.svg)](https://codecov.io/gh/LaGuer/universe-age)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LaGuer/universe-age/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LaGuer/hubble-radius/master)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laguer/universe-age/blob/master/universe-age.ipynb)
-[![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/LaGuer/universe-age/blob/master/universe-age.ipynb)
+[![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/LaGuer/hubble-radius/blob/master/hubble-radius.ipynb)
 
 This repository contains the Jupyter notebooks of 15 Methods exhibiting the age of the universe using physical constants.
 
