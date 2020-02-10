@@ -10,8 +10,8 @@ dependencies:
   - pip
   - pytest
   - ipywidgets >= 6.0.0
-  - jupyterlab_latex
   - pip:
       - julia
       - nbval
       - nbdime
+      - jupyterlab_latex
