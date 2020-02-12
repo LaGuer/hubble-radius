@@ -11,7 +11,7 @@
 [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/LaGuer/hubble-radius/blob/master/hubble-radius.ipynb)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/LaGuer/hubble-radius/master?urlpath=lab%2Ftree%2Fhubble-radius.ipynb)
 
-This repository contains the Jupyter notebooks of 15 Methods exhibiting the age of the universe using physical constants.
+This repository contains the Jupyter notebooks of 48 Methods exhibiting the age of the universe (Hubble radius distance) using physical constants.
 
 Python modules used: scipy, sympy, pandas and numpy
 
