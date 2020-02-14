@@ -69,6 +69,7 @@ before_install:
     sudo apt-get install -y texlive-latex-recommended
     sudo apt-get install -y dvipng
     # texlive-glossaries doesn't appear to be available
+    sudo wget http://mirrors.ctan.org/install/macros/text1.zip
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/glossaries.tds.zip
     sudo unzip glossaries.tds.zip -d ~/texmf/
     # need up-to-date koma-script, which isn't supplied with this version of debian
@@ -97,6 +98,7 @@ script:
 
 after_success:
 - if [[ "$TEST_TYPE" == "pytest" ]]; then coveralls ; fi
+- cat environment.yaml
 
 deploy:
   - provider: pypi
