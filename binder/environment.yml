@@ -17,7 +17,9 @@ dependencies:
   - notebook =5.7.4
   - pip
   - pytest
-
-
-  # - ipypublish-environment
-  # - jupyterlab_latex       ==0.4.1
+  - pip:
+      - julia
+      - nbval
+      - nbdime
+      - jupyterlab_latex
+      - ipypublish
