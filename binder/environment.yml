@@ -13,9 +13,9 @@ dependencies:
   - healpy
   - pillow
   - ipywidgets
-  - ipypublish-environment
+  #- ipypublish-environment
   - jupyterlab              # ==0.35
-  - jupyterlab_latex        # ==0.4.1
+  #- jupyterlab_latex        # ==0.4.1
   - notebook                # ==5.7.4
   - pip
   - pytest
