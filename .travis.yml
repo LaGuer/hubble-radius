@@ -3,14 +3,14 @@ matrix:
   include:
   - os: linux
     sudo: required
-    python: 3.6
+    python: 2.7
     dist: trusty
-    env: TEST_TYPE="pre-commit"
+    env: TEST_TYPE="pytest"
   - os: linux
     sudo: required
-    python: 3.6
+    python: 3.5
     dist: trusty
-    env: TEST_TYPE="rtd"
+    env: TEST_TYPE="pytest"
   - os: linux
     sudo: required
     python: 3.6
@@ -37,15 +37,15 @@ matrix:
       sudo: required
       python: 2.7
       dist: trusty
-      env: TEST_TYPE="pytest"
+      env: TEST_TYPE="pre-commit"
     - os: linux
       sudo: required
       python: 3.5
       dist: trusty
-      env: TEST_TYPE="pytest"
+      env: TEST_TYPE="rtd"
     - os: osx
       language: generic
-      env: TEST_TYPE="pytest"
+      env: TEST_TYPE="rtd"
 
 before_install:
 # Pandoc
