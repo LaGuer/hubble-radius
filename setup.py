@@ -8,7 +8,7 @@ from importlib import import_module
 
 from setuptools import setup, find_packages
 
-with open("requirements.txt") as f:
+with open("environment.yml") as f:
     requirements = f.read().splitlines()
 
 with io.open("README.md") as readme:
