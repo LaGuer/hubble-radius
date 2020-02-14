@@ -20,4 +20,4 @@ dependencies:
 
 
   # - ipypublish-environment
-  # - jupyterlab_latex        # ==0.4.1
+  # - jupyterlab_latex       ==0.4.1
