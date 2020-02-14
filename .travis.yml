@@ -65,7 +65,9 @@ before_install:
     sudo apt-get install -y texlive
     sudo apt-get install -y texlive-xetex
     sudo apt-get install -y texlive-latex-extra
-    #sudo apt-get install -y texlive-lang-p
+    sudo apt-get install -y texlive-fonts-extra
+    sudo apt-get install -y texlive-latex-recommended
+    sudo apt-get install -y dvipng
     # texlive-glossaries doesn't appear to be available
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/glossaries.tds.zip
     sudo unzip glossaries.tds.zip -d ~/texmf/
@@ -82,7 +84,7 @@ install:
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then travis_wait pip install .[tests] ; fi
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then pip install --quiet coveralls ; fi
 #- if [[ "$TEST_TYPE" == "pre-commit" ]]; then pip install -e .[code_style]; fi
-- if [[ "$TEST_TYPE" == "rtd" ]]; then travis_wait pip install .[rtd] ; fi
+#- if [[ "$TEST_TYPE" == "rtd" ]]; then travis_wait pip install .[rtd] ; fi
 
 script:
 - if [[ "$TEST_TYPE" == "pytest" ]]; then pytest -v --cov=hubble-radius --cov-config .coveragerc --cov-report= hubble-radius ; fi
