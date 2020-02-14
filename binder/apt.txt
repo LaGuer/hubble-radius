@@ -1,1 +1,5 @@
 texlive-xetex
+texlive-latex-extra
+texlive-fonts-extra
+texlive-latex-recommended
+dvipng
