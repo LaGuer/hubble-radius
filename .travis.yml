@@ -79,9 +79,9 @@ before_install:
   fi
 install:
 - pip install -U pip setuptools wheel
-- if [[ "$TEST_TYPE" == "pytest" ]]; then travis_wait pip install .[tests] ; fi
-- if [[ "$TEST_TYPE" == "pytest" ]]; then pip install --quiet coveralls ; fi
-- if [[ "$TEST_TYPE" == "pre-commit" ]]; then pip install -e .[code_style]; fi
+#- if [[ "$TEST_TYPE" == "pytest" ]]; then travis_wait pip install .[tests] ; fi
+#- if [[ "$TEST_TYPE" == "pytest" ]]; then pip install --quiet coveralls ; fi
+#- if [[ "$TEST_TYPE" == "pre-commit" ]]; then pip install -e .[code_style]; fi
 - if [[ "$TEST_TYPE" == "rtd" ]]; then travis_wait pip install .[rtd] ; fi
 
 script:
