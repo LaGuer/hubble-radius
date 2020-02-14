@@ -83,13 +83,13 @@ before_install:
 install:
 - pip install -U pip setuptools wheel
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then travis_wait pip install .[tests] ; fi
-#- if [[ "$TEST_TYPE" == "pytest" ]]; then pip install --quiet coveralls ; fi
+- if [[ "$TEST_TYPE" == "pytest" ]]; then pip install --quiet coveralls ; fi
 #- if [[ "$TEST_TYPE" == "pre-commit" ]]; then pip install -e .[code_style]; fi
 #- if [[ "$TEST_TYPE" == "rtd" ]]; then travis_wait pip install .[rtd] ; fi
 
 script:
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then pytest -v --cov=hubble-radius --cov-config .coveragerc --cov-report= hubble-radius ; fi
-#- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -pdf --pdf-debug -log debug hubble-table.ipynb ; fi
+- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -tex --tex-debug -log debug hubble-table.ipynb ; fi
 - |
   if [[ "$TEST_TYPE" == "pre-commit" ]]; then
     pre-commit run --all-files || ( git status --short ; git diff ; exit 1 )
@@ -98,7 +98,7 @@ script:
 
 after_success:
 - if [[ "$TEST_TYPE" == "pytest" ]]; then coveralls ; fi
-- cat environment.yaml
+- cat environment.yml
 
 deploy:
   - provider: pypi
