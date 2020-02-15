@@ -63,11 +63,13 @@ before_install:
     sudo apt-get -qq update
     # sudo apt-get install -y pandoc is too old
     sudo apt-get install -y texlive
-    sudo apt-get install -y texlive-xetex
     sudo apt-get install -y texlive-latex-extra
     sudo apt-get install -y texlive-fonts-extra
+    sudo apt-get install -y texlive-fonts-recommended
     sudo apt-get install -y texlive-latex-recommended
+    sudo apt-get install -y texlive-xetex
     sudo apt-get install -y dvipng
+    sudo apt-get install -y xzdec
     # texlive-glossaries doesn't appear to be available
     sudo wget http://mirrors.ctan.org/install/macros/text1.zip
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/glossaries.tds.zip
