@@ -94,7 +94,7 @@ script:
 - pwd
 - ls -lart
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then pytest -v --cov=hubble-radius --cov-config .coveragerc --cov-report= hubble-radius ; fi
-- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish example/notebooks/ ; fi
+- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish hubble-radius.ipynb ; fi
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -pdf -o /home/travis/build/LaGuer/hubble-radius/converted --pdf-debug -log debug example/notebooks/Test.ipynb ; fi
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then nbconvert *.ipynb --to latex   ; fi
 - |
