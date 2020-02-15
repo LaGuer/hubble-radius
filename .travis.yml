@@ -21,10 +21,10 @@ matrix:
     python: 3.7
     dist: xenial
     env: TEST_TYPE="pytest"
-  - os: linux
+  - os: osx
     sudo: required
     python: 2.7
-    dist: trusty
+    #dist: trusty
     env: TEST_TYPE="pytest"
   - os: linux
     sudo: required
