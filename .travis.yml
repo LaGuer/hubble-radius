@@ -5,7 +5,7 @@ matrix:
     sudo: required
     python: 2.7
     dist: trusty
-    env: TEST_TYPE="pytest"
+    env: TEST_TYPE="rtd"
   - os: linux
     sudo: required
     python: 3.5
@@ -87,8 +87,8 @@ install:
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then travis_wait pip install .[tests] ; fi
 - if [[ "$TEST_TYPE" == "pytest" ]]; then pip install --quiet ipypublish ; fi
 - if [[ "$TEST_TYPE" == "pytest" ]]; then pip install --quiet coveralls ; fi
-#- if [[ "$TEST_TYPE" == "pre-commit" ]]; then pip install -e .[code_style]; fi
-#- if [[ "$TEST_TYPE" == "rtd" ]]; then travis_wait pip install .[rtd] ; fi
+- if [[ "$TEST_TYPE" == "pre-commit" ]]; then pip install -e .[code_style]; fi
+- if [[ "$TEST_TYPE" == "rtd" ]]; then travis_wait pip install .[rtd] ; fi
 
 script:
 - pwd
