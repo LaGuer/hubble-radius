@@ -23,16 +23,16 @@ matrix:
     env: TEST_TYPE="pytest"
   - os: linux
     sudo: required
-    python: 2.8
-    dist: trusty
-    env: TEST_TYPE="pytest"
-  - os: linux
-    sudo: required
     python: 3.5
     dist: trusty
     env: TEST_TYPE="pytest"
  
   allow_failures:
+    - os: linux
+      sudo: required
+      python: 2.7
+      dist: trusty
+      env: TEST_TYPE="pytest"
     - os: linux
       sudo: required
       python: 2.7
