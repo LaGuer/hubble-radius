@@ -37,12 +37,12 @@ matrix:
       sudo: required
       python: 2.7
       dist: trusty
-      env: TEST_TYPE="pre-commit"
+      env: TEST_TYPE="rtd"
     - os: linux
       sudo: required
       python: 3.5
       dist: trusty
-      env: TEST_TYPE="rtd"
+      env: TEST_TYPE="pre-commit"
     - os: osx
       language: generic
       env: TEST_TYPE="rtd"
@@ -94,7 +94,7 @@ script:
 - pwd
 - ls -lart
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then pytest -v --cov=hubble-radius --cov-config .coveragerc --cov-report= hubble-radius ; fi
-- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -pdf --pdf-debug -log debug /home/travis/build/LaGuer/hubble-radius/test.ipynb ; fi
+- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -pdf --pdf-debug -log debug home/travis/build/LaGuer/hubble-radius/test.ipynb ; fi
 - |
   if [[ "$TEST_TYPE" == "pre-commit" ]]; then
     pre-commit run --all-files || ( git status --short ; git diff ; exit 1 )
