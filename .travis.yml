@@ -89,6 +89,8 @@ install:
 #- if [[ "$TEST_TYPE" == "rtd" ]]; then travis_wait pip install .[rtd] ; fi
 
 script:
+- pwd
+- ls -lart
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then pytest -v --cov=hubble-radius --cov-config .coveragerc --cov-report= hubble-radius ; fi
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -pdf --pdf-debug -log debug $HOME/hubble-table.ipynb ; fi
 - |
