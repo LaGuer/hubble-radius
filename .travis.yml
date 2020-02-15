@@ -94,7 +94,7 @@ script:
 - pwd
 - ls -lart
 #- if [[ "$TEST_TYPE" == "pytest" ]]; then pytest -v --cov=hubble-radius --cov-config .coveragerc --cov-report= hubble-radius ; fi
-- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -pdf --pdf-debug -log debug hubble-table.ipynb ; fi
+- if [[ "$TEST_TYPE" == "pytest" ]]; then nbpublish -pdf --pdf-debug -log debug hubble-radius.ipynb ; fi
 - |
   if [[ "$TEST_TYPE" == "pre-commit" ]]; then
     pre-commit run --all-files || ( git status --short ; git diff ; exit 1 )
