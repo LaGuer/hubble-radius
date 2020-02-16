@@ -9,12 +9,12 @@ matrix:
   - os: linux
     sudo: required
     python: 3.8.1
-    dist: trusty
+    dist: bionic
     env: TEST_TYPE="pytest"
   - os: linux
     sudo: required
     python: 3.6
-    dist: trusty
+    dist: xenial
     env: TEST_TYPE="pytest" PYPI_DEPLOY=true
   - os: linux
     sudo: required
