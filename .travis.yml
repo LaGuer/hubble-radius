@@ -72,6 +72,9 @@ before_install:
     sudo apt-get install -y xzdec
     # texlive-glossaries doesn't appear to be available
     sudo wget http://mirrors.ctan.org/install/macros/text1.zip
+    sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/ulem.zip
+    sudo wget http://mirrors.ctan.org/fonts/mathpazo.zip
+    sudo wget http://mirrors.ctan.org/fonts/eurosym.zip
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/glossaries.tds.zip
     sudo unzip glossaries.tds.zip -d ~/texmf/
     # need up-to-date koma-script, which isn't supplied with this version of debian
