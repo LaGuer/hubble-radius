@@ -67,6 +67,7 @@ before_install:
     sudo apt-get install -y texlive-fonts-extra
     sudo apt-get install -y texlive-fonts-recommended
     sudo apt-get install -y texlive-latex-recommended
+    sudo apt-get install -y texlive-generic-recommended
     sudo apt-get install -y texlive-xetex
     sudo apt-get install -y dvipng
     sudo apt-get install -y xzdec
