@@ -8,9 +8,9 @@ matrix:
     env: TEST_TYPE="rtd"
   - os: linux
     sudo: required
-    python: 3.5
+    python: 3.8.1
     dist: trusty
-    env: TEST_TYPE="pre-commit"
+    env: TEST_TYPE="pytest"
   - os: linux
     sudo: required
     python: 3.6
