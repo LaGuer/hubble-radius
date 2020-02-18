@@ -74,6 +74,7 @@ before_install:
     # texlive-glossaries doesn't appear to be available
     sudo wget http://mirrors.ctan.org/install/macros/text1.zip
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/ulem.zip
+    sudo wget http://mirrors.ctan.org/fonts/fontawesome5.zip
     sudo wget http://mirrors.ctan.org/fonts/mathpazo.zip
     sudo wget http://mirrors.ctan.org/fonts/eurosym.zip
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/glossaries.tds.zip
