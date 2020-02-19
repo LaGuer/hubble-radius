@@ -71,12 +71,21 @@ before_install:
     sudo apt-get install -y texlive-xetex
     sudo apt-get install -y dvipng
     sudo apt-get install -y xzdec
+    sudo apt-get install -y png2icns
+    sudo apt-get install -y imagemagick
     # texlive-glossaries doesn't appear to be available
     sudo wget http://mirrors.ctan.org/install/macros/text1.zip
+    sudo unzip text1.zip -d ~/texmf/
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/ulem.zip
+    sudo unzip ulem.zip -d ~/texmf/
     sudo wget http://mirrors.ctan.org/fonts/fontawesome5.zip
+    sudo unzip fontawesome5.zip -d ~/texmf/
     sudo wget http://mirrors.ctan.org/fonts/mathpazo.zip
+    sudo unzip mathpazo.zip -d ~/texmf/
     sudo wget http://mirrors.ctan.org/fonts/eurosym.zip
+    sudo unzip eurosym.zip  -d ~/texmf/
+    sudo http://mirrors.ctan.org/install/macros/latex/contrib/parskip.zip
+    sudo unzip parskip.zip -d ~/texmf/
     sudo wget http://mirrors.ctan.org/install/macros/latex/contrib/glossaries.tds.zip
     sudo unzip glossaries.tds.zip -d ~/texmf/
     # need up-to-date koma-script, which isn't supplied with this version of debian
