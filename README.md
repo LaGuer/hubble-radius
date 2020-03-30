@@ -17,9 +17,11 @@ Python modules used: scipy, sympy, pandas and numpy
 
 Fixed Constants used are:
 
-* 𝜋=3.141592653589793 
-* Euler Mascheroni  𝛾=0.5772156649015329 
-* Atiyah's  Γ=25.178097241906 
+* 𝜋=3.141592653589793... https://oeis.org/A000796
+* Euler Mascheroni  𝛾=0.5772156649015329... https://oeis.org/A001620
+* Atiyah's  Γ=25.178097241906... 
+* Feigenbaum constant δ=4.669201609102990671853... https://oeis.org/A006890
+* 2nd Feigenbaum constant α=2.50290787509589282228390287321... https://oeis.org/A006891
 * Eddington Electric Constant  𝑎=137.0359990836958  also known as the inversed fine structure constant CODATA2018
 * 𝑐=299792458.0  m/s CODATA2018
 * ℎ=6.62607015.10−34   𝐽.𝐻𝑧−1  CODATA2018
