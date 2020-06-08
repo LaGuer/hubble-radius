@@ -6,3 +6,5 @@ texlive-generic-recommended
 texlive-xetex
 dvipng
 xzdec
+zip
+unzip
