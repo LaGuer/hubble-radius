@@ -7,4 +7,4 @@ wget http://mirrors.ctan.org/fonts/mathpazo.zip
 wget http://mirrors.ctan.org/fonts/eurosym.zip
 wget http://mirrors.ctan.org/fonts/fontawesome5.zip
 wget http://mirrors.ctan.org/fonts/academicons.zip
-bash installAcademicons
+su - root; bash installAcademicons
