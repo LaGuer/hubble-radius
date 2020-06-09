@@ -8,3 +8,4 @@ dvipng
 xzdec
 zip
 unzip
+sudo
