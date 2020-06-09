@@ -1,0 +1,15 @@
+#!/bin/bash
+texdir=$(kpsewhich -expand-var='$TEXMFLOCAL' | sed 's/:.*//')
+#unzip -xzf ./academicons.zip
+unzip  ./academicons.zip
+mkdir -p $texdir/fonts/map/dvips/academicons
+cp academicons/*.map $texdir/fonts/map/dvips/academicons
+mkdir -p $texdir/fonts/tfm/public/academicons
+cp academicons/*.tfm $texdir/fonts/tfm/public/academicons
+mkdir -p $texdir/fonts/type1/public/academicons
+cp academicons/*.pfb $texdir/fonts/type1/public/academicons
+mkdir -p $texdir/tex/latex/academicons
+cp academicons/*.sty $texdir/tex/latex/academicons
+rm -rf academicons
+mktexlsr
+updmap-sys --enable Map=academicons.map
