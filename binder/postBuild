@@ -6,3 +6,4 @@ wget http://mirrors.ctan.org/install/macros/latex/contrib/ulem.zip
 wget http://mirrors.ctan.org/fonts/mathpazo.zip
 wget http://mirrors.ctan.org/fonts/eurosym.zip
 wget http://mirrors.ctan.org/fonts/fontawesome5.zip
+wget http://mirrors.ctan.org/fonts/academicons.zip
