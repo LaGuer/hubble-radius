@@ -10,4 +10,3 @@ xzdec
 zip
 unzip
 sudo
-vi
