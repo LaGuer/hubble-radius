@@ -1,9 +1,12 @@
+fonts-lato
 texlive-latex-extra
 texlive-fonts-extra
 texlive-fonts-recommended
 texlive-latex-recommended
 texlive-generic-recommended
 texlive-xetex
+fonts-lato
+academicons
 dvipng
 xzdec
 zip
