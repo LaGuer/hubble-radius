@@ -4,6 +4,7 @@ texlive-fonts-recommended
 texlive-latex-recommended
 texlive-generic-recommended
 texlive-xetex
+texlive-luatex
 fonts-lato
 dvipng
 xzdec
