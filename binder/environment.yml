@@ -1,8 +1,8 @@
 name: hubble-radius
-#channels:
-#  - conda-forge
+channels:
+  - conda-forge
 dependencies:
-  - python =3.7
+  - python=3.8  # Updated Python version
   - numpy
   - matplotlib
   - pandas
@@ -13,8 +13,8 @@ dependencies:
   - healpy
   - pillow
   - ipywidgets
-  - jupyterlab =0.35
-  - notebook =5.7.4
+  - jupyterlab=3.0  # Updated JupyterLab version
+  - notebook=6.4.0  # Updated Notebook version
   - pip
   - pytest
   - pip:
