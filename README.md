@@ -16,14 +16,8 @@ This repository contains python code and Jupyter notebooks presenting 48 Methods
 These 48 formulas illustrate how one can “compute” a cosmic length scale using only ℏ, 𝐺, and the masses 𝑚_𝑒, 𝑚_𝑛, and 𝑚_𝑝
  – all without an explicit appearance of the speed of light. They serve as a playground for exploring how dimensional analysis and natural unit ideas may (or may not) reflect deep physics.
 
- Physical Interpretation: In a standard cosmological setting the Hubble radius is defined by 
-𝑅
-𝐻
-=
-𝑐
-/
-𝐻
-0
+Physical Interpretation: In a standard cosmological setting the Hubble radius is defined by 
+$𝑅_𝐻=𝑐/𝐻_0$
  (which explicitly uses the speed of light). Recasting it in terms of other fundamental constants—and in particular not introducing 
 𝑐
 —is an approach that appears in attempts (such as those by Francis Michel Sanchez) to “derive” cosmic scales from quantum–gravitational considerations. The fact that one can match the observational scale (within a few percent, under a suitable choice of 
