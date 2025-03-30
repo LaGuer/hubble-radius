@@ -17,6 +17,18 @@ Source Context:
 
 The formula is derived via dimensional analysis, inspired by approaches in natural units and large-number hypotheses.
 
+Dimensional Relationships
+The quantity for length (𝐿) can be derived from the Planck constants. Using dimensional analysis:
+$𝐿∝ℏ𝐺//𝑀$
+Where:
+ℏ has dimensions of $ML^2T^−1$,
+𝐺 has dimensions of $L^3M^−1T^−2$,
+𝑀 represents mass.
+
+To incorporate the masses of fundamental particles, we treat 
+𝑀 as the combination of 
+$𝑚_𝑝$, $𝑚_𝑛$, and $𝑚_𝑒$ in relevant proportions (to represent universal characteristics).
+
 These 48 formulas illustrate how one can “compute” a cosmic length scale using only ℏ, 𝐺, and the masses 𝑚_𝑒, 𝑚_𝑛, and 𝑚_𝑝
  – all without an explicit appearance of the speed of light. They serve as a playground for exploring how dimensional analysis and natural unit ideas may (or may not) reflect deep physics.
 
