@@ -9,7 +9,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LaGuer/hubble-radius/master)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laguer/universe-age/blob/master/universe-age.ipynb)
 [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/LaGuer/hubble-radius/blob/master/hubble-radius.ipynb)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/LaGuer/hubble-radius/master?urlpath=lab%2Ftree%2Fhubble-radius.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/LaGuer/hubble-radius/master?urlpath=lab%2Ftree%2Fhubble-radius-new.ipynb)
 
 This repository contains python code and Jupyter notebooks presenting 48 Methods exhibiting the age of the universe (Hubble radius distance) using 3 physical constants excluding the speed of light.
 
