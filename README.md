@@ -13,7 +13,9 @@
 
 This repository contains python code and Jupyter notebooks presenting 48 Methods exhibiting the age of the universe (Hubble radius distance) using 3 physical constants excluding the speed of light.
 
-
+These 48 formulas illustrate how one can “compute” a cosmic length scale using only ℏ, 𝐺, and the masses 𝑚_𝑒, 𝑚_𝑛, and 𝑚_𝑝
+ – all without an explicit appearance of the speed of light. They serve as a playground for exploring how dimensional analysis and natural unit ideas may (or may not) reflect deep physics.
+ 
 ```
 import math
 
@@ -70,7 +72,7 @@ if __name__ == "__main__":
 ```
 
 
-Python modules used: scipy, sympy, pandas and numpy
+In addition we used Python modules such as: scipy, sympy, pandas and numpy
 
 Fixed Constants used are:
 
