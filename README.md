@@ -19,10 +19,10 @@ The formula is derived via dimensional analysis, inspired by approaches in natur
 
 Dimensional Relationships
 The quantity for length (𝐿) can be derived from the Planck constants. Using dimensional analysis:
-$𝐿∝ℏ𝐺//𝑀$
+$𝐿 ∝ ℏ𝐺 / 𝑀$
 Where:
-ℏ has dimensions of $ML^2T^−1$,
-𝐺 has dimensions of $L^3M^−1T^−2$,
+ℏ has dimensions of $ ML^2 T^−1$,
+𝐺 has dimensions of $ L^3 M^−1 T^−2$,
 𝑀 represents mass.
 
 To incorporate the masses of fundamental particles, we treat 
@@ -33,7 +33,7 @@ These 48 formulas illustrate how one can “compute” a cosmic length scale usi
  – all without an explicit appearance of the speed of light. They serve as a playground for exploring how dimensional analysis and natural unit ideas may (or may not) reflect deep physics.
 
 Physical Interpretation: In a standard cosmological setting the Hubble radius is defined by 
-$𝑅_𝐻=𝑐/𝐻_0$
+$𝑅_𝐻 = 𝑐/𝐻_0$
  (which explicitly uses the speed of light). Recasting it in terms of other fundamental constants—and in particular not introducing 
 𝑐
 —is an approach that appears in attempts (such as those by Francis Michel Sanchez) to “derive” cosmic scales from quantum–gravitational considerations. The fact that one can match the observational scale (within a few percent, under a suitable choice of 
