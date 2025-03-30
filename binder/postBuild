@@ -5,9 +5,9 @@ set -ex
 jupyter labextension install @jupyterlab/latex@3.0.0
 
 # Download additional fonts
-wget http://mirrors.ctan.org/fonts/fontawesome5.zip
-wget http://mirrors.ctan.org/fonts/academicons.zip
+# wget http://mirrors.ctan.org/fonts/fontawesome5.zip
+# wget http://mirrors.ctan.org/fonts/academicons.zip
 
 # Make the install script executable and run it
-chmod +x installAcademicons
+# chmod +x installAcademicons
 # ./installAcademicons  # Uncomment if you have a script to install Academicons
