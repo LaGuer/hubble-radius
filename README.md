@@ -1,4 +1,4 @@
-# Hubble radius estimates
+# Hubble radius distance estimates
 
 [![Cite ptep](https://img.shields.io/badge/PP-57-12-yellow.svg?style=flat)](http://www.ptep-online.com/2019/PP-57-12.PDF)
 [![Latest PDF](https://img.shields.io/badge/PDF-latest-red.svg?style=flat)](http://www.ptep-online.com/2019/PP-57-12.PDF)
@@ -16,6 +16,7 @@ This repository contains python code and Jupyter notebooks presenting 48 Methods
 Source Context:
 
 The formula is derived via dimensional analysis, inspired by approaches in natural units and large-number hypotheses.
+$R_H= 2 ℏ^2/G m_e m_n m_p$
 
 Dimensional Relationships
 The quantity for length (𝐿) can be derived from the Planck constants. Using dimensional analysis:
