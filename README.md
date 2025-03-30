@@ -13,6 +13,10 @@
 
 This repository contains python code and Jupyter notebooks presenting 48 Methods exhibiting the age of the universe (Hubble radius distance) using 3 physical constants excluding the speed of light.
 
+Source Context:
+
+The formula is derived via dimensional analysis, inspired by approaches in natural units and large-number hypotheses.
+
 These 48 formulas illustrate how one can “compute” a cosmic length scale using only ℏ, 𝐺, and the masses 𝑚_𝑒, 𝑚_𝑛, and 𝑚_𝑝
  – all without an explicit appearance of the speed of light. They serve as a playground for exploring how dimensional analysis and natural unit ideas may (or may not) reflect deep physics.
 
