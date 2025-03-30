@@ -1,11 +1,13 @@
-# set -ex
-# pip install .
-jupyter labextension install @jupyterlab/latex@0.6.1
-#wget http://mirrors.ctan.org/install/macros/text1.zip
-#wget http://mirrors.ctan.org/install/macros/latex/contrib/ulem.zip
-#wget http://mirrors.ctan.org/fonts/mathpazo.zip
-#wget http://mirrors.ctan.org/fonts/eurosym.zip
+#!/bin/bash
+set -ex
+
+# Install JupyterLab LaTeX extension
+jupyter labextension install @jupyterlab/latex@3.0.0
+
+# Download additional fonts
 wget http://mirrors.ctan.org/fonts/fontawesome5.zip
 wget http://mirrors.ctan.org/fonts/academicons.zip
-chmod +x installAcademicons 
-# installAcademicons
+
+# Make the install script executable and run it
+chmod +x installAcademicons
+# ./installAcademicons  # Uncomment if you have a script to install Academicons
