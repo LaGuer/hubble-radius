@@ -2,7 +2,7 @@
 set -ex
 
 # Install JupyterLab LaTeX extension
-jupyter labextension install @jupyterlab/latex@3.0.0
+# jupyter labextension install @jupyterlab/latex@3.0.0
 
 # Download additional fonts
 # wget http://mirrors.ctan.org/fonts/fontawesome5.zip
