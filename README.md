@@ -15,8 +15,8 @@ This repository contains python code and Jupyter notebooks presenting 48 Methods
 
 Source Context:
 
-The formula is derived via dimensional analysis, inspired by approaches in natural units and large-number hypotheses.
-$R_H= 2 ℏ^2/G m_e m_n m_p$
+The formula $R_H= 2 ℏ^2/G m_e m_n m_p$ is derived via dimensional analysis, inspired by approaches in natural units and large-number hypotheses.
+
 
 Dimensional Relationships
 The quantity for length (𝐿) can be derived from the Planck constants. Using dimensional analysis:
