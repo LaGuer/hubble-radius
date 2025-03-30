@@ -22,7 +22,7 @@ The quantity for length (𝐿) can be derived from the Planck constants. Using d
 $𝐿 ∝ ℏ𝐺 / 𝑀$
 Where:
 ℏ has dimensions of $ML^2T-^1$,
-𝐺 has dimensions of $L^3M-^1T-^2$,
+𝐺 has dimensions of $L^3M-^1T^{-2}$,
 𝑀 represents mass.
 
 To incorporate the masses of fundamental particles, we treat 
