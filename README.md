@@ -15,7 +15,7 @@ This repository contains python code and Jupyter notebooks presenting 48 Methods
 
 Source Context:
 
-The formula $R_H= 2 ℏ^2/G m_e m_n m_p$ is derived via dimensional analysis, inspired by approaches in natural units and large-number hypotheses.
+The formula $R_H= ℏ^2/G m_e m_n m_p$ is derived via dimensional analysis, inspired by approaches in natural units and large-number hypotheses.
 
 
 Dimensional Relationships
